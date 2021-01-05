@@ -18,7 +18,7 @@ public:
     void print() const {
         cout<< " - "<< name << " : " << age << endl;
     }
-
+// Important for object comparison with other ( Person object vs other Person object)
     bool operator<(const Person &other)  const {
         return name < other.name;
     }
